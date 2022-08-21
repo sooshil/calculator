@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="clearButton">C</string>
+    <string name="brackets">()</string>
+    <string name="percentSign">%</string>
+    <string name="divideSign">÷</string>
+    <string name="numberSeven">7</string>
+    <string name="numberEight">8</string>
+    <string name="numberNine">9</string>
+    <string name="multiplySign">×</string>
+    <string name="numberFour">4</string>
+    <string name="numberFive">5</string>
+    <string name="numberSix">6</string>
+    <string name="minusSign">-</string>
+    <string name="numberOne">1</string>
+    <string name="numberTwo">2</string>
+    <string name="numberThree">3</string>
+    <string name="plusSign">+</string>
+    <string name="plusOrMinusSign">±</string>
+    <string name="numberZero">0</string>
+    <string name="decimal">.</string>
+    <string name="equalSign">=</string>
+</resources>

@@ -1,0 +1,49 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Theme.Calculator" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="numberButtonStyle">
+        <item name="android:background">@drawable/number_button</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="backgroundTint">@null</item>
+        <item name="layout_constraintDimensionRatio">1:1</item>
+        <item name="android:layout_marginTop">4dp</item>
+        <item name="android:layout_marginBottom">4dp</item>
+        <item name="android:layout_marginStart">8dp</item>
+        <item name="android:layout_marginEnd">8dp</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">@color/number_color</item>
+        <item name="layout_constraintVertical_bias">1</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:insetLeft">0dp</item>
+        <item name="android:insetRight">0dp</item>
+        <item name="fontFamily">@font/jurabold</item>
+    </style>
+
+    <style name="equalButtonStyle" parent="numberButtonStyle">
+        <item name="android:background">@drawable/equal_button</item>
+    </style>
+
+    <style name="aCButtonStyle" parent="numberButtonStyle">
+        <item name="android:textColor">@color/ac_color</item>
+    </style>
+
+    <style name="operatorButtonStyle" parent="numberButtonStyle">
+        <item name="android:textColor">@color/operator_color</item>
+        <item name="android:textSize">36sp</item>
+    </style>
+</resources>
